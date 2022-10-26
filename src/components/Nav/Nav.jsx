@@ -7,30 +7,37 @@ import Card from "../Card/Card";
 export default function Nav() {
   const [topic, setTopic] = useState([
     {
-      id: "For Loop",
-      count: "1/5",
-      src: "imgs/LOOPS/ForLoop.jpg",
+      id: ".map() in JSX",
+      src: "assets/basics/.map()inJSX.jpg",
     },
     {
-      id: "While Loop",
-      count: "2/5",
-      src: "imgs/LOOPS/WhileLoop.jpg",
+      id: "if...else in JSX",
+      src: "assets/basics/if-else-in-JSX.jpg",
     },
     {
-      id: "Do While Loop",
-      count: "3/5",
-      src: "imgs/LOOPS/DoWhileLoop.jpg",
+      id: "Variable Attributes",
+      src: "assets/basics/Variable Attributes in JSX.jpg",
     },
     {
-      id: "Nested Loop",
-      count: "4/5",
-      src: "imgs/LOOPS/NestedLoop-ComparingTwoArrays.jpg",
+      id: "Event Listeners",
+      src: "assets/basics/Event-Listener-in-JSX.jpg",
     },
     {
-      id: "Break Keyword",
-      count: "5/5",
-      src: "imgs/LOOPS/BreakKeyword.jpg",
+      id: "Ternary Operator",
+      src: "assets/basics/IF ELSE Ternary operator in React.jpg",
     },
+    {
+      id: "If...then && operator",
+      src: "assets/basics/IF TRUE THEN YES &&operator.jpg",
+    },
+    {
+      id: "Key attribute",
+      src: "assets/basics/keys for marking lis.jpg",
+    },
+    {
+      id: "React.createElement",
+      src: "assets/basics/React.createElement.jpg",
+    }
   ]);
 
   const [clickedImg, setClickedImg] = useState("");
@@ -65,29 +72,36 @@ export default function Nav() {
             onClick={(e) => {
               setTopic([
                 {
-                  id: "For Loop",
-                  count: "1/5",
-                  src: "imgs/LOOPS/ForLoop.jpg",
+                  id: ".map() in JSX",
+                  src: "assets/basics/.map()inJSX.jpg",
                 },
                 {
-                  id: "While Loop",
-                  count: "2/5",
-                  src: "imgs/LOOPS/WhileLoop.jpg",
+                  id: "if...else in JSX",
+                  src: "assets/basics/if-else-in-JSX.jpg",
                 },
                 {
-                  id: "Do While Loop",
-                  count: "3/5",
-                  src: "imgs/LOOPS/DoWhileLoop.jpg",
+                  id: "Variable Attributes",
+                  src: "assets/basics/Variable Attributes in JSX.jpg",
                 },
                 {
-                  id: "Nested Loop",
-                  count: "4/5",
-                  src: "imgs/LOOPS/NestedLoop-ComparingTwoArrays.jpg",
+                  id: "Event Listeners",
+                  src: "assets/basics/Event-Listener-in-JSX.jpg",
                 },
                 {
-                  id: "Break Keyword",
-                  count: "5/5",
-                  src: "imgs/LOOPS/BreakKeyword.jpg",
+                  id: "Ternary Operator",
+                  src: "assets/basics/IF ELSE Ternary operator in React.jpg",
+                },
+                {
+                  id: "If...then && operator",
+                  src: "assets/basics/IF TRUE THEN YES &&operator.jpg",
+                },
+                {
+                  id: "Key attribute",
+                  src: "assets/basics/keys for marking lis.jpg",
+                },
+                {
+                  id: "React.createElement",
+                  src: "assets/basics/React.createElement.jpg",
                 },
               ]);
               underline(e);
