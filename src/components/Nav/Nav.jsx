@@ -569,8 +569,10 @@ export default function Nav() {
           >
             Modules
           </li>
-          </ul>
+        </ul>
       </nav>
+
+      {/* -----------------------MAP TO FILL CARDS */}
       <div className="card-container">
         {topic.map((img, index) => {
           return (
@@ -586,6 +588,11 @@ export default function Nav() {
           );
         })}
       </div>
+
+      {/*  */}
+      {/* ---------------------------MODAL */}
+      {/*  */}
+
       {modalState ? (
         <span
           className="modal"
