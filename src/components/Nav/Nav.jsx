@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Nav.css";
+// import "./Nav.css";
 import Card from "../Card/Card";
 
 // TODO  add modal to small pics
