@@ -4,7 +4,6 @@ import Card from "../Card/Card";
 
 // TODO  add modal to small pics
 
-console.log(img)
 
 export default function Nav() {
   const [topic, setTopic] = useState([
