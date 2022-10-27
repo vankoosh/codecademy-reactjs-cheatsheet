@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./Nav.css";
 import Card from "../Card/Card";
-import img from "../../assets/mapinJSX.jpg";
 
 // TODO  add modal to small pics
 
@@ -11,7 +10,7 @@ export default function Nav() {
   const [topic, setTopic] = useState([
     {
       id: ".map() in JSX",
-      src: img,
+      src: "assets / mapinJSX.jpg",
     },
     {
       id: "if...else in JSX",
@@ -365,19 +364,19 @@ export default function Nav() {
               setTopic([
                 {
                   id: "Stateless to Statefull",
-                  src: "assest/stateless-represent/1.0 Stateless to Statefull.jpg",
+                  src: "assets/stateless-represent/1.0 Stateless to Statefull.jpg",
                 },
                 {
                   id: "Passing onChange data",
-                  src: "assest/stateless-represent/1.1 Passing onChange data from Child-Parent-Sibling.jpg",
+                  src: "assets/stateless-represent/1.1 Passing onChange data from Child-Parent-Sibling.jpg",
                 },
                 {
                   id: "Controled VS Uncontroled",
-                  src: "assest/stateless-represent/Controled VS Uncontroled components.jpg",
+                  src: "assets/stateless-represent/Controled VS Uncontroled components.jpg",
                 },
                 {
                   id: "Presentational",
-                  src: "assest/stateless-represent/Presentational and Container Components.jpg",
+                  src: "assets/stateless-represent/Presentational and Container Components.jpg",
                 },
               ]);
               underline(e);
