@@ -74,7 +74,7 @@ export default function Nav() {
               setTopic([
                 {
                   id: ".map() in JSX",
-                  src: "assets/basics/.map()inJSX.jpg",
+                  src: "assets/basics/map()inJSX.jpg",
                 },
                 {
                   id: "if...else in JSX",
