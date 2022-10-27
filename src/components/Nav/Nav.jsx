@@ -8,7 +8,7 @@ export default function Nav() {
   const [topic, setTopic] = useState([
     {
       id: ".map() in JSX",
-      src: "assets/basics/.map()inJSX.jpg",
+      src: "/assets/basics/.map()inJSX.jpg",
     },
     {
       id: "if...else in JSX",
@@ -42,7 +42,7 @@ export default function Nav() {
 
   const [clickedImg, setClickedImg] = useState("");
   const [modalState, setModalState] = useState(false);
-  const [active, setActive] = useState("Loops");
+  const [active, setActive] = useState("Basics");
 
   const onClick = (e) => {
     setClickedImg(e.target.getAttribute("src"));
@@ -133,60 +133,60 @@ export default function Nav() {
             onClick={(e) => {
               setTopic([
                 {
-                  id: "",
+                  id: "Rendering",
                   src: "assets/components/1.1 Rendering a component.jpg",
                 },
                 {
-                  id: "",
+                  id: "Nesting",
                   src: "assets/components/1.2 Nesting components-2 returns in one component.jpg",
                 },
                 {
-                  id: "",
+                  id: "Using",
                   src: "assets/components/1.3 Using a var in a component.jpg",
                 },
                 {
-                  id: "",
+                  id: "Insert",
                   src: "assets/components/1.4 Insert logic into render function.jpg",
                 },
                 {
-                  id: "",
+                  id: "Using conditionals",
                   src: "assets/components/1.5 Using conditionals in components.jpg",
                 },
                 {
-                  id: "",
+                  id: "this. keyword",
                   src: "assets/components/1.6 this. keyword in components.jpg",
                 },
                 {
-                  id: "",
+                  id: "Pass 'props'",
                   src: "assets/components/1.7 Pass 'props' into a component.jpg",
                 },
                 {
-                  id: "",
+                  id: "Render unique",
                   src: "assets/components/1.8 Render unique components based on props.jpg",
                 },
                 {
-                  id: "",
+                  id: "default props",
                   src: "assets/components/1.9 default props.jpg",
                 },
                 {
-                  id: "",
+                  id: "Event listeners",
                   src: "assets/components/1.10 Event listeners in components.jpg",
                 },
                 {
-                  id: "",
+                  id: "Naming event listeners",
                   src: "assets/components/1.11 Naming event listeners.jpg",
                 },
                 {
-                  id: "",
+                  id: "this.props.children",
                   src: "assets/components/1.12 this.props.children.jpg",
                 },
                 {
-                  id: "",
+                  id: "this.setState",
                   src: "assets/components/1.13 this.setState updating state.jpg",
                 },
                 {
-                  id: "",
-                  src: "assets/componentsSTATE function-basedVSclass-based.jpg",
+                  id: "function vs class",
+                  src: "assets/components/STATE function-basedVSclass-based.jpg",
                 },
               ]);
               underline(e);
@@ -201,59 +201,59 @@ export default function Nav() {
             onClick={(e) => {
               setTopic([
                 {
-                  id: "",
+                  id: "intro",
                   src: "assets/component-lifecycle/Intro to lifecycle methods.jpg",
                 },
                 {
-                  id: "",
+                  id: "lifecycle",
                   src: "assets/component-lifecycle/Component Lifecycle.jpg",
                 },
                 {
-                  id: "",
+                  id: "lifecycle list",
                   src: "assets/component-lifecycle/Lifecycle List.jpg",
                 },
                 {
-                  id: "",
+                  id: "mounting",
                   src: "assets/component-lifecycle/1.1 MOUNTING - contructor.jpg",
                 },
                 {
-                  id: "",
+                  id: "getDerivedState",
                   src: "assets/component-lifecycle/1.2 MOUNTING - getDerivedStateFromProps.jpg",
                 },
                 {
-                  id: "",
+                  id: "MOUNTING - render()",
                   src: "assets/component-lifecycle/1.3 MOUNTING - render().jpg",
                 },
                 {
-                  id: "",
+                  id: "MOUNTING - componentDidMount()",
                   src: "assets/component-lifecycle/1.4 MOUNTING - componentDidMount().jpg",
                 },
                 {
-                  id: "",
+                  id: "UPDATING - shouldComponentUpdate()",
                   src: "assets/component-lifecycle/2.1 UPDATING - shouldComponentUpdate().jpg",
                 },
                 {
-                  id: "",
+                  id: "UPDATING - ...and render()",
                   src: "assets/component-lifecycle/2.2 UPDATING - ...and render().jpg",
                 },
                 {
-                  id: "",
+                  id: "componentDidUpdate()",
                   src: "assets/component-lifecycle/2.3 UPDATING - componentDidUpdate().jpg",
                 },
                 {
-                  id: "",
+                  id: "componentWillUnmount()",
                   src: "assets/component-lifecycle/3.1 UNMOUNTING - componentWillUnmount().jpg",
                 },
                 {
-                  id: "",
+                  id: "componentDidMount",
                   src: "assets/component-lifecycle/componentDidMount.jpg",
                 },
                 {
-                  id: "",
+                  id: "componentDidUpdate",
                   src: "assets/component-lifecycle/componentDidUpdate.jpg",
                 },
                 {
-                  id: "",
+                  id: "componentWillUnmount",
                   src: "assets/component-lifecycle/componentWillUnmount.jpg",
                 },
               ]);
@@ -269,67 +269,67 @@ export default function Nav() {
             onClick={(e) => {
               setTopic([
                 {
-                  id: "",
+                  id: "why hooks",
                   src: "assets/hooks/1 HOOKS Why use hooks.jpg",
                 },
                 {
-                  id: "",
+                  id: "class vs func hooks",
                   src: "assets/hooks/1.0 HOOKS class VS func with state.jpg",
                 },
                 {
-                  id: "",
+                  id: "useState",
                   src: "assets/hooks/1.1 HOOKS useState hook.jpg",
                 },
                 {
-                  id: "",
+                  id: "Initial state",
                   src: "assets/hooks/1.2 HOOKS Initial state.jpg",
                 },
                 {
-                  id: "",
+                  id: "destructuring",
                   src: "assets/hooks/1.3 HOOKS setState,destructuring,target.value.jpg.jpg",
                 },
                 {
-                  id: "",
+                  id: "previousState",
                   src: "assets/hooks/1.4 HOOKS previousState.jpg",
                 },
                 {
-                  id: "",
+                  id: "arrays as setState argument",
                   src: "assets/hooks/1.5 HOOKS arrays as setState argument.jpg",
                 },
                 {
-                  id: "",
+                  id: "objects as setState argument",
                   src: "assets/hooks/1.6 HOOKS objects as setState argument.jpg",
                 },
                 {
-                  id: "",
+                  id: "Multiple setStates",
                   src: "assets/hooks/1.7 HOOKS Multiple setStates.jpg",
                 },
                 {
-                  id: "",
+                  id: "useEffect review",
                   src: "assets/hooks/2 HOOKS useEffect REVIEW.jpg",
                 },
                 {
-                  id: "",
+                  id: "useEffect",
                   src: "assets/hooks/2.1 HOOKS useEffect.jpg",
                 },
                 {
-                  id: "",
+                  id: "cleanup after useEffect",
                   src: "assets/hooks/2.2 HOOKS cleanup after useEffect.jpg",
                 },
                 {
-                  id: "",
+                  id: "useEffect render once",
                   src: "assets/hooks/2.3 HOOKS useEffect only after 1st render with []",
                 },
                 {
-                  id: "",
+                  id: "useEffect fetch()",
                   src: "assets/hooks/2.4 HOOKS useEffect fetch() api.jpg",
                 },
                 {
-                  id: "",
+                  id: "fetch useEffect example",
                   src: "assets/hooks/2.5 HOOKS 2 RULES with another fetch example.jpg",
                 },
                 {
-                  id: "",
+                  id: "separate hooks",
                   src: "assets/hooks/2.6 HOOKS separate hooks for separate effects with fetch ex.jpg",
                 },
               ]);
@@ -337,7 +337,6 @@ export default function Nav() {
               setActive(e.target.innerText);
             }}
             className={active === "Hooks" ? "underline" : ""}
-            Conditionals
           >
             Hooks
           </li>
@@ -346,7 +345,7 @@ export default function Nav() {
             onClick={(e) => {
               setTopic([
                 {
-                  id: "",
+                  id: "PropTypes",
                   src: "assets/props/PropTypes class and func components.jpg",
                 },
               ]);
@@ -357,24 +356,24 @@ export default function Nav() {
           >
             Props
           </li>
-          {/* CLASSES */}
+          {/* STATELESS */}
           <li
             onClick={(e) => {
               setTopic([
                 {
-                  id: "",
+                  id: "Stateless to Statefull",
                   src: "assest/stateless-represent/1.0 Stateless to Statefull.jpg",
                 },
                 {
-                  id: "",
+                  id: "Passing onChange data",
                   src: "assest/stateless-represent/1.1 Passing onChange data from Child-Parent-Sibling.jpg",
                 },
                 {
-                  id: "",
+                  id: "Controled VS Uncontroled",
                   src: "assest/stateless-represent/Controled VS Uncontroled components.jpg",
                 },
                 {
-                  id: "",
+                  id: "Presentational",
                   src: "assest/stateless-represent/Presentational and Container Components.jpg",
                 },
               ]);
@@ -390,7 +389,7 @@ export default function Nav() {
             onClick={(e) => {
               setTopic([
                 {
-                  id: "",
+                  id: "Starting react-app",
                   src: "assets/create-react-app/Starting react-app.jpg",
                 },
               ]);
