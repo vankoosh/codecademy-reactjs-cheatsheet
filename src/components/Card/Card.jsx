@@ -17,7 +17,7 @@ export default function Card({
       <img
         src={props.src}
         className="card__img"
-        alt=""
+        alt={props.id}
         onClick={onClick}
         onMouseEnter={onMouseEnter}
         onMouseLeave={onMouseLeave}
