@@ -1,0 +1,19 @@
+.card{
+  // position: absolute;
+  margin: 0;
+  // background-color: bisque;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid #808080;
+  border-top: 1px solid #808080;
+  
+  .card__text{
+    font-size: 1rem;
+    // background-color: yellow;
+    margin: 0;
+    text-align: center;
+  }
+  .card__img{
+    width: 22vw;
+  }
+
+}

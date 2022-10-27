@@ -1,0 +1,14 @@
+.card {
+  margin: 0;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid #808080;
+  border-top: 1px solid #808080;
+}
+.card .card__text {
+  font-size: 1rem;
+  margin: 0;
+  text-align: center;
+}
+.card .card__img {
+  width: 22vw;
+}/*# sourceMappingURL=Card.css.map */

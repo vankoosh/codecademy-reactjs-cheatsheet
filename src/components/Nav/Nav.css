@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.underline {
+  border-bottom: 1px solid black;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  padding-left: 1rem;
+  opacity: 0;
+  transition: opacity 0.5s;
+  background-color: #c5c5c5;
+  width: 100vw;
+}
+nav:hover {
+  opacity: 1;
+}
+nav ul {
+  height: 3rem;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+nav ul li, nav ul a {
+  color: #000;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-right: 2rem;
+}
+nav ul li:hover, nav ul a:hover {
+  color: purple;
+}
+nav ul li:active, nav ul a:active {
+  color: purple;
+}
+
+.card-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 3rem;
+}
+.card-container .modal {
+  position: absolute;
+  display: none;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.692);
+  overflow: hidden;
+}
+.card-container .modal .modal-img {
+  width: 35vw;
+  margin: 0 auto;
+}/*# sourceMappingURL=Nav.css.map */

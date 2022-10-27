@@ -37,7 +37,7 @@ export default function Nav() {
     {
       id: "React.createElement",
       src: "assets/basics/React.createElement.jpg",
-    }
+    },
   ]);
 
   const [clickedImg, setClickedImg] = useState("");
@@ -67,7 +67,7 @@ export default function Nav() {
     <main>
       <nav>
         <ul>
-          {/* LOOPS */}
+          {/* BASICS */}
           <li
             onClick={(e) => {
               setTopic([
@@ -108,189 +108,229 @@ export default function Nav() {
               setActive(e.target.innerText);
             }}
             // TODO maybe something like this?
-            className={active === "Loops" ? "underline" : ""}
+            className={active === "Basics" ? "underline" : ""}
           >
-            Loops
+            Basics
           </li>
-          {/* ARRAYS */}
+          {/* INLINE STYLING */}
           <li
             onClick={(e) => {
               setTopic([
                 {
-                  id: 1,
-                  count: "1/4",
-                  src: "imgs/ARRAYS/Arrays.jpg",
-                },
-                {
-                  id: 2,
-                  count: "2/4",
-                  src: "imgs/ARRAYS/ChangeArrayElementsByAssignment.jpg",
-                },
-                {
-                  id: 3,
-                  count: "3/4",
-                  src: "imgs/ARRAYS/AccesingIndexOfNestedArrays.jpg",
-                },
-                {
-                  id: 4,
-                  count: "4/4",
-                  src: "imgs/ARRAYS/NestedLoop-ComparingTwoArrays.jpg",
+                  id: "Inline style",
+                  src: "assets/inline-style/1.0 Changing inline style syntax.jpg",
                 },
               ]);
               underline(e);
               setActive(e.target.innerText);
             }}
-            className={active === "Arrays" ? "underline" : ""}
+            className={active === "Inline style" ? "underline" : ""}
           >
-            Arrays
+            Inline style
           </li>
-          {/* ARRAY ITERATORS */}
+          {/* COMPONENTS */}
           <li
             onClick={(e) => {
               setTopic([
                 {
-                  id: 1,
-                  count: "1/6",
-                  src: "imgs/ARRAY-ITERATORS/filter().jpg",
+                  id: "",
+                  src: "assets/components/1.1 Rendering a component.jpg",
                 },
                 {
-                  id: 2,
-                  count: "2/6",
-                  src: "imgs/ARRAY-ITERATORS/findIndex().jpg",
+                  id: "",
+                  src: "assets/components/1.2 Nesting components-2 returns in one component.jpg",
                 },
                 {
-                  id: 3,
-                  count: "3/6",
-                  src: "imgs/ARRAY-ITERATORS/forEach().jpg",
+                  id: "",
+                  src: "assets/components/1.3 Using a var in a component.jpg",
                 },
                 {
-                  id: 4,
-                  count: "4/6",
-                  src: "imgs/ARRAY-ITERATORS/map().jpg",
+                  id: "",
+                  src: "assets/components/1.4 Insert logic into render function.jpg",
                 },
                 {
-                  id: 5,
-                  count: "5/6",
-                  src: "imgs/ARRAY-ITERATORS/reduce().jpg",
+                  id: "",
+                  src: "assets/components/1.5 Using conditionals in components.jpg",
                 },
                 {
-                  id: 6,
-                  count: "6/6",
-                  src: "imgs/ARRAY-ITERATORS/IteratorsExamples.jpg",
+                  id: "",
+                  src: "assets/components/1.6 this. keyword in components.jpg",
+                },
+                {
+                  id: "",
+                  src: "assets/components/1.7 Pass 'props' into a component.jpg",
+                },
+                {
+                  id: "",
+                  src: "assets/components/1.8 Render unique components based on props.jpg",
+                },
+                {
+                  id: "",
+                  src: "assets/components/1.9 default props.jpg",
+                },
+                {
+                  id: "",
+                  src: "assets/components/1.10 Event listeners in components.jpg",
+                },
+                {
+                  id: "",
+                  src: "assets/components/1.11 Naming event listeners.jpg",
+                },
+                {
+                  id: "",
+                  src: "assets/components/1.12 this.props.children.jpg",
+                },
+                {
+                  id: "",
+                  src: "assets/components/1.13 this.setState updating state.jpg",
+                },
+                {
+                  id: "",
+                  src: "assets/componentsSTATE function-basedVSclass-based.jpg",
                 },
               ]);
               underline(e);
               setActive(e.target.innerText);
             }}
-            className={active === "Array Iterators" ? "underline" : ""}
+            className={active === "Components" ? "underline" : ""}
           >
-            Array Iterators
+            Components
           </li>
-          {/* CONDITIONALS */}
+          {/* COMPONENT LIFECYCLE */}
           <li
             onClick={(e) => {
               setTopic([
                 {
-                  id: 1,
-                  count: "1/5",
-                  src: "imgs/CONDITIONALS/ConditionalStatementsReview.jpg",
+                  id: "",
+                  src: "assets/component-lifecycle/Intro to lifecycle methods.jpg",
                 },
                 {
-                  id: 2,
-                  count: "2/5",
-                  src: "imgs/CONDITIONALS/SwitchStatement.jpg",
+                  id: "",
+                  src: "assets/component-lifecycle/Component Lifecycle.jpg",
                 },
                 {
-                  id: 3,
-                  count: "3/5",
-                  src: "imgs/CONDITIONALS/TernaryOperator.jpg",
+                  id: "",
+                  src: "assets/component-lifecycle/Lifecycle List.jpg",
                 },
                 {
-                  id: 4,
-                  count: "4/5",
-                  src: "imgs/CONDITIONALS/TruthyAndFalsyStatements.jpg",
+                  id: "",
+                  src: "assets/component-lifecycle/1.1 MOUNTING - contructor.jpg",
                 },
                 {
-                  id: 5,
-                  count: "5/5",
-                  src: "imgs/CONDITIONALS/Short-circuitOREvaluation.jpg",
+                  id: "",
+                  src: "assets/component-lifecycle/1.2 MOUNTING - getDerivedStateFromProps.jpg",
+                },
+                {
+                  id: "",
+                  src: "assets/component-lifecycle/1.3 MOUNTING - render().jpg",
+                },
+                {
+                  id: "",
+                  src: "assets/component-lifecycle/1.4 MOUNTING - componentDidMount().jpg",
+                },
+                {
+                  id: "",
+                  src: "assets/component-lifecycle/2.1 UPDATING - shouldComponentUpdate().jpg",
+                },
+                {
+                  id: "",
+                  src: "assets/component-lifecycle/2.2 UPDATING - ...and render().jpg",
+                },
+                {
+                  id: "",
+                  src: "assets/component-lifecycle/2.3 UPDATING - componentDidUpdate().jpg",
+                },
+                {
+                  id: "",
+                  src: "assets/component-lifecycle/3.1 UNMOUNTING - componentWillUnmount().jpg",
+                },
+                {
+                  id: "",
+                  src: "assets/component-lifecycle/componentDidMount.jpg",
+                },
+                {
+                  id: "",
+                  src: "assets/component-lifecycle/componentDidUpdate.jpg",
+                },
+                {
+                  id: "",
+                  src: "assets/component-lifecycle/componentWillUnmount.jpg",
                 },
               ]);
               underline(e);
               setActive(e.target.innerText);
             }}
-            className={active === "Conditionals" ? "underline" : ""}
+            className={active === "Lifecycle" ? "underline" : ""}
           >
-            Conditionals
+            Lifecycle
           </li>
-          {/* OBJECTS */}
+          {/* HOOKS */}
           <li
             onClick={(e) => {
               setTopic([
                 {
-                  id: 1,
-                  count: "1/13",
-                  src: "imgs/OBJECTS/ObjectsReview.jpg",
+                  id: "",
+                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
                 },
                 {
-                  id: 2,
-                  count: "2/13",
-                  src: "imgs/OBJECTS/AdvancedObjectsReview.jpg",
+                  id: "",
+                  src: "assets/hooks/1.0 HOOKS class VS func with state.jpg",
                 },
                 {
-                  id: 3,
-                  count: "3/13",
-                  src: "imgs/OBJECTS/LoopingThroughObjects.jpg",
+                  id: "",
+                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
                 },
                 {
-                  id: 4,
-                  count: "4/13",
-                  src: "imgs/OBJECTS/CreatingObjectLiterals.jpg",
+                  id: "",
+                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
                 },
                 {
-                  id: 5,
-                  count: "5/13",
-                  src: "imgs/OBJECTS/Destructured{}Assignment.jpg",
+                  id: "",
+                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
                 },
                 {
-                  id: 6,
-                  count: "6/13",
-                  src: "imgs/OBJECTS/Built-inMethodsLikeObject.keys().entries().assign().jpg",
+                  id: "",
+                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
                 },
                 {
-                  id: 7,
-                  count: "7/13",
-                  src: "imgs/OBJECTS/FactoryFunctions.jpg",
+                  id: "",
+                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
                 },
                 {
-                  id: 8,
-                  count: "8/13",
-                  src: "imgs/OBJECTS/ObjectsAndPrivacy.jpg",
+                  id: "",
+                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
                 },
                 {
-                  id: 9,
-                  count: "9/13",
-                  src: "imgs/OBJECTS/RefactoringKeyValueShorthand.jpg",
+                  id: "",
+                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
                 },
                 {
-                  id: 10,
-                  count: "10/13",
-                  src: "imgs/OBJECTS/Getters.jpg",
+                  id: "",
+                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
                 },
                 {
-                  id: 11,
-                  count: "11/13",
-                  src: "imgs/OBJECTS/Setters.jpg",
+                  id: "",
+                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
                 },
                 {
-                  id: 12,
-                  count: "12/13",
-                  src: "imgs/OBJECTS/thisKeyword.jpg",
+                  id: "",
+                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
                 },
                 {
-                  id: 13,
-                  count: "13/13",
-                  src: "imgs/OBJECTS/thisAndArrowFunctions.jpg",
+                  id: "",
+                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
+                },
+                {
+                  id: "",
+                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
+                },
+                {
+                  id: "",
+                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
+                },
+                {
+                  id: "",
+                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
                 },
               ]);
               underline(e);
