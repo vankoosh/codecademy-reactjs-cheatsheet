@@ -1,14 +1,17 @@
 import React, { useState } from "react";
 import "./Nav.css";
 import Card from "../Card/Card";
+import img from "../../assets/mapinJSX.jpg";
 
 // TODO  add modal to small pics
+
+console.log(img)
 
 export default function Nav() {
   const [topic, setTopic] = useState([
     {
       id: ".map() in JSX",
-      src: "assets/basics/.map()inJSX.jpg",
+      src: img,
     },
     {
       id: "if...else in JSX",
