@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import "./Nav.css";
+import "./Nav.css";
 import Card from "../Card/Card";
 
 // TODO  add modal to small pics
@@ -278,350 +278,128 @@ export default function Nav() {
                 },
                 {
                   id: "",
-                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
+                  src: "assets/hooks/1.1 HOOKS useState hook.jpg",
                 },
                 {
                   id: "",
-                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
+                  src: "assets/hooks/1.2 HOOKS Initial state.jpg",
                 },
                 {
                   id: "",
-                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
+                  src: "assets/hooks/1.3 HOOKS setState,destructuring,target.value.jpg.jpg",
                 },
                 {
                   id: "",
-                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
+                  src: "assets/hooks/1.4 HOOKS previousState.jpg",
                 },
                 {
                   id: "",
-                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
+                  src: "assets/hooks/1.5 HOOKS arrays as setState argument.jpg",
                 },
                 {
                   id: "",
-                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
+                  src: "assets/hooks/1.6 HOOKS objects as setState argument.jpg",
                 },
                 {
                   id: "",
-                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
+                  src: "assets/hooks/1.7 HOOKS Multiple setStates.jpg",
                 },
                 {
                   id: "",
-                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
+                  src: "assets/hooks/2 HOOKS useEffect REVIEW.jpg",
                 },
                 {
                   id: "",
-                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
+                  src: "assets/hooks/2.1 HOOKS useEffect.jpg",
                 },
                 {
                   id: "",
-                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
+                  src: "assets/hooks/2.2 HOOKS cleanup after useEffect.jpg",
                 },
                 {
                   id: "",
-                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
+                  src: "assets/hooks/2.3 HOOKS useEffect only after 1st render with []",
                 },
                 {
                   id: "",
-                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
+                  src: "assets/hooks/2.4 HOOKS useEffect fetch() api.jpg",
                 },
                 {
                   id: "",
-                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
+                  src: "assets/hooks/2.5 HOOKS 2 RULES with another fetch example.jpg",
                 },
                 {
                   id: "",
-                  src: "assets/hooks/1 HOOKS Why use hooks.jpg",
+                  src: "assets/hooks/2.6 HOOKS separate hooks for separate effects with fetch ex.jpg",
                 },
               ]);
               underline(e);
               setActive(e.target.innerText);
             }}
-            className={active === "Objects" ? "underline" : ""}
+            className={active === "Hooks" ? "underline" : ""}
             Conditionals
           >
-            Objects
+            Hooks
           </li>
-          {/* FUNCTIONS */}
+          {/* PROPS */}
           <li
             onClick={(e) => {
               setTopic([
-                { id: "1/6", src: "imgs/FUNCTIONS/FunctionDeclaration.jpg" },
                 {
-                  id: "2/6",
-                  src: "imgs/FUNCTIONS/FunctionExpression.jpg",
-                },
-                {
-                  id: "3/6",
-                  src: "imgs/FUNCTIONS/ConciseBodyArrowFunctions.jpg",
-                },
-                {
-                  id: "4/6",
-                  src: "imgs/FUNCTIONS/DefaultParameter.jpg",
-                },
-                {
-                  id: "5/6",
-                  src: "imgs/FUNCTIONS/HelperFunctions.jpg",
-                },
-                {
-                  id: "6/6",
-                  src: "imgs/FUNCTIONS/ReturnKeyword.jpg",
+                  id: "",
+                  src: "assets/props/PropTypes class and func components.jpg",
                 },
               ]);
               underline(e);
               setActive(e.target.innerText);
             }}
-            className={active === "Functions" ? "underline" : ""}
+            className={active === "Props" ? "underline" : ""}
           >
-            Functions
+            Props
           </li>
           {/* CLASSES */}
           <li
             onClick={(e) => {
               setTopic([
-                { id: "1/8", src: "imgs/CLASSES/Classes.jpg" },
                 {
-                  id: "2/8",
-                  src: "imgs/CLASSES/Constructor.jpg",
+                  id: "",
+                  src: "assest/stateless-represent/1.0 Stateless to Statefull.jpg",
                 },
                 {
-                  id: "3/8",
-                  src: "imgs/CLASSES/ANewInstance.jpg",
+                  id: "",
+                  src: "assest/stateless-represent/1.1 Passing onChange data from Child-Parent-Sibling.jpg",
                 },
                 {
-                  id: "4/8",
-                  src: "imgs/CLASSES/AddingMethods.jpg",
+                  id: "",
+                  src: "assest/stateless-represent/Controled VS Uncontroled components.jpg",
                 },
                 {
-                  id: "5/8",
-                  src: "imgs/CLASSES/CallingMethods.jpg",
-                },
-                {
-                  id: "6/8",
-                  src: "imgs/CLASSES/StaticSuperclassMethod.jpg",
-                },
-                {
-                  id: "7/8",
-                  src: "imgs/CLASSES/ExtendSubclassFromSuperclass.jpg",
-                },
-                {
-                  id: "8/8",
-                  src: "imgs/CLASSES/ExcersiseWithDefaultParams.jpg",
+                  id: "",
+                  src: "assest/stateless-represent/Presentational and Container Components.jpg",
                 },
               ]);
               underline(e);
               setActive(e.target.innerText);
             }}
-            className={active === "Classes" ? "underline" : ""}
+            className={active === "Stateless/Represent" ? "underline" : ""}
           >
-            Classes
+            Stateless/Represent
           </li>
-          {/* FETCH */}
+          {/* CREATE REACT APP */}
           <li
             onClick={(e) => {
               setTopic([
                 {
-                  id: "1/11",
-                  src: "imgs/FETCH/fetch()Review.jpg",
-                },
-                {
-                  id: "2/11",
-                  src: "imgs/FETCH/fetch()GETDiagram.jpg",
-                },
-                {
-                  id: "3/11",
-                  src: "imgs/FETCH/fetch()GETExample.jpg",
-                },
-                {
-                  id: "4/11",
-                  src: "imgs/FETCH/fetch()GETExampleWithPromise.jpg",
-                },
-                {
-                  id: "5/11",
-                  src: "imgs/FETCH/fetch()POSTDiagram.jpg",
-                },
-                {
-                  id: "6/11",
-                  src: "imgs/FETCH/fetch()POSTExample.jpg",
-                },
-                {
-                  id: "7/11",
-                  src: "imgs/FETCH/fetch()POSTExample II.jpg",
-                },
-                {
-                  id: "8/11",
-                  src: "imgs/FETCH/asyncAwaitGETwithFetch()Diagram.jpg",
-                },
-                {
-                  id: "9/11",
-                  src: "imgs/FETCH/asyncAwaitGETwithFetch()Example.jpg",
-                },
-                {
-                  id: "10/11",
-                  src: "imgs/FETCH/asyncAwaitPOSTwithFetch()Diagram.jpg",
-                },
-                {
-                  id: "11/11",
-                  src: "imgs/FETCH/asyncAwaitPOSTwithFetch()Example.jpg",
+                  id: "",
+                  src: "assets/create-react-app/Starting react-app.jpg",
                 },
               ]);
               underline(e);
               setActive(e.target.innerText);
             }}
-            className={active === "FETCH" ? "underline" : ""}
+            className={active === "create-react-app" ? "underline" : ""}
           >
-            FETCH
-          </li>
-          {/* ASYNC AWAIT */}
-          <li
-            onClick={(e) => {
-              setTopic([
-                {
-                  id: "1/9",
-                  src: "imgs/ASYNC-AWAIT/AsyncAwaitIntroduction.jpg",
-                },
-                {
-                  id: "2/9",
-                  src: "imgs/ASYNC-AWAIT/AsyncAwaitReview.jpg",
-                },
-                {
-                  id: "3/9",
-                  src: "imgs/ASYNC-AWAIT/AsyncKeyword.jpg",
-                },
-                {
-                  id: "4/9",
-                  src: "imgs/ASYNC-AWAIT/AwaitOperator.jpg",
-                },
-                {
-                  id: "5/9",
-                  src: "imgs/ASYNC-AWAIT/WritinAsyncFunctions.jpg",
-                },
-                {
-                  id: "6/9",
-                  src: "imgs/ASYNC-AWAIT/HandlingIndependentPromises.jpg",
-                },
-                {
-                  id: "7/9",
-                  src: "imgs/ASYNC-AWAIT/HandlingChainedPromises.jpg",
-                },
-                {
-                  id: "8/9",
-                  src: "imgs/ASYNC-AWAIT/HandlingErrors.jpg",
-                },
-                {
-                  id: "9/9",
-                  src: "imgs/ASYNC-AWAIT/AwaitPromise.all().jpg",
-                },
-              ]);
-              underline(e);
-              setActive(e.target.innerText);
-            }}
-            className={active === "ASYNC - AWAIT" ? "underline" : ""}
-          >
-            ASYNC - AWAIT
-          </li>
-          {/* PROMISES */}
-          <li
-            onClick={(e) => {
-              setTopic([
-                {
-                  id: "1/7",
-                  src: "imgs/PROMISES/Promises Review.jpg",
-                },
-                {
-                  id: "2/7",
-                  src: "imgs/PROMISES/ConstructingAPromiseObject.jpg",
-                },
-                {
-                  id: "3/7",
-                  src: "imgs/PROMISES/HandlingPromisesWithCallbacks.jpg",
-                },
-                {
-                  id: "4/7",
-                  src: "imgs/PROMISES/ConsumingPromisesWith.then()and.catch().jpg",
-                },
-                {
-                  id: "5/7",
-                  src: "imgs/PROMISES/ConsumingPromisesWith.catch().jpg",
-                },
-                {
-                  id: "6/7",
-                  src: "imgs/PROMISES/ChainingMultiplePromises.jpg",
-                },
-                {
-                  id: "7/7",
-                  src: "imgs/PROMISES/Promise.all().jpg",
-                },
-              ]);
-              underline(e);
-              setActive(e.target.innerText);
-            }}
-            className={active === "PROMISES" ? "underline" : ""}
-          >
-            PROMISES
-          </li>
-          {/* XHR GET-POST */}
-          <li
-            onClick={(e) => {
-              setTopic([
-                {
-                  id: "1/7",
-                  src: "imgs/XHR-GET-POST/XHRReview.jpg",
-                },
-                {
-                  id: "2/7",
-                  src: "imgs/XHR-GET-POST/MakingXHRGETDiagram.jpg",
-                },
-                {
-                  id: "3/7",
-                  src: "imgs/XHR-GET-POST/XHRGETSyntax.jpg",
-                },
-                {
-                  id: "4/7",
-                  src: "imgs/XHR-GET-POST/XHRGETExample.jpg",
-                },
-                {
-                  id: "5/7",
-                  src: "imgs/XHR-GET-POST/XHRGETExample II.jpg",
-                },
-                {
-                  id: "6/7",
-                  src: "imgs/XHR-GET-POST/MakingXHRPOSTDiagram.jpg",
-                },
-                {
-                  id: "7/7",
-                  src: "imgs/XHR-GET-POST/XHRPOSTExample.jpg",
-                },
-              ]);
-              underline(e);
-              setActive(e.target.innerText);
-            }}
-            className={active === "XHR GET-POST" ? "underline" : ""}
-          >
-            XHR GET-POST
-          </li>
-          {/* MODULES */}
-          <li
-            onClick={(e) => {
-              setTopic([
-                {
-                  id: "1/7",
-                  src: "imgs/MODULES/NodeModulesInJS.jpg",
-                },
-                {
-                  id: "2/7",
-                  src: "imgs/MODULES/BrowserModulesInJS.jpg",
-                },
-                {
-                  id: "3/7",
-                  src: "imgs/MODULES/Export-ImportExcercise.jpg",
-                },
-              ]);
-              underline(e);
-              setActive(e.target.innerText);
-            }}
-            className={active === "Modules" ? "underline" : ""}
-          >
-            Modules
+            create-react-app
           </li>
         </ul>
       </nav>
