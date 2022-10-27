@@ -9,7 +9,7 @@ export default function Nav() {
   const [topic, setTopic] = useState([
     {
       id: ".map() in JSX",
-      src: "assets / mapinJSX.jpg",
+      src: "assets/basics/.map()inJSX.jpg",
     },
     {
       id: "if...else in JSX",
