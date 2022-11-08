@@ -108,7 +108,6 @@ export default function Nav() {
               underline(e);
               setActive(e.target.innerText);
             }}
-            // TODO maybe something like this?
             className={active === "Basics" ? "underline" : ""}
           >
             Basics
